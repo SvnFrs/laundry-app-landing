@@ -15,7 +15,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              &copy; Cruip.com - All rights reserved.
+              &copy; EasyLaundry.com - All rights reserved.
             </div>
           </div>
 
@@ -155,7 +155,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   aria-label="Twitter"
                 >
                   <svg
-                    className="h-8 w-8 fill-current"
+                    className="h-8 w-8 fill-sky-500"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -170,7 +170,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   aria-label="Medium"
                 >
                   <svg
-                    className="h-8 w-8 fill-current"
+                    className="h-8 w-8 fill-sky-500"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -185,7 +185,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   aria-label="Github"
                 >
                   <svg
-                    className="h-8 w-8 fill-current"
+                    className="h-8 w-8 fill-sky-500"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -200,7 +200,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
 
       {/* Big text */}
       <div className="relative -mt-16 h-60 w-full" aria-hidden="true">
-        <div className="pointer-events-none absolute left-1/2 -z-10 -translate-x-1/2 text-center text-[348px] font-bold leading-none before:bg-gradient-to-b before:from-gray-200 before:to-gray-100/30 before:to-80% before:bg-clip-text before:text-transparent before:content-['Simple'] after:absolute after:inset-0 after:bg-gray-300/70 after:bg-clip-text after:text-transparent after:mix-blend-darken after:content-['Simple'] after:[text-shadow:0_1px_0_white]"></div>
+        <div className="pointer-events-none absolute left-1/2 -z-10 -translate-x-1/2 text-center text-[348px] font-bold leading-none before:bg-gradient-to-b before:from-sky-100 before:to-sky-200/30 before:to-80% before:bg-clip-text before:text-transparent before:content-['Easy'] after:absolute after:inset-0 after:bg-gray-300/70 after:bg-clip-text after:text-transparent after:mix-blend-darken after:content-['Easy'] after:[text-shadow:0_1px_0_white]"></div>
         {/* Glow */}
         <div
           className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-2/3"

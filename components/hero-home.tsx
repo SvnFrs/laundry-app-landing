@@ -15,8 +15,8 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              The laundry solution you're <br className="max-lg:hidden" />
-              looking for
+              Giải pháp giặt ủi bạn <br className="max-lg:hidden" />
+              hằng mong chờ
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -24,8 +24,9 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Easy laundry is a modern laundry booking application which
-                revolutionize the traditional way of doing laundry.
+                Giặt ủi chưa bao giờ dễ dàng đến thế! Với Easy laundry, chỉ cần
+                vài thao tác đơn giản trên điện thoại, quần áo sạch sẽ sẽ được
+                giao đến tận nhà.
               </p>
               <div className="relative before:absolute before:inset-0 before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                 <div
@@ -38,7 +39,7 @@ export default function HeroHome() {
                     href="#0"
                   >
                     <span className="relative inline-flex items-center">
-                      Go To Download Page{" "}
+                      Tải ngay thôi{" "}
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
@@ -48,7 +49,7 @@ export default function HeroHome() {
                     className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
                     href="#0"
                   >
-                    Learn More
+                    Tìm hiểu thêm
                   </a>
                 </div>
               </div>
@@ -63,14 +64,14 @@ export default function HeroHome() {
             <div className="relative aspect-video rounded-2xl bg-transparent px-5 py-3 shadow-xl before:pointer-events-none before:absolute before:-inset-5 before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] after:absolute after:-inset-5 after:-z-10 after:[border-image:linear-gradient(to_bottom,transparent,theme(colors.slate.300/.8),transparent)1]">
               <div className="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] before:[background-image:radial-gradient(circle_at_4.5px_4.5px,_theme(colors.gray.600)_4.5px,_transparent_0)] after:w-[41px]">
                 <span className="text-[13px] text-black font-bold">
-                  Easy laundry sponsors
+                  Nhà tài trợ của chúng tôi
                 </span>
               </div>
               <Image
                 src="/images/NEWWASH.jpg" // Path is correct
                 width={800}
                 height={800}
-                style={{borderRadius: 15}}
+                style={{ borderRadius: 15 }}
                 alt="Logo" // It's good practice to make the alt text meaningful
               />
             </div>
